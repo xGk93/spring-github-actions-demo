@@ -1,6 +1,6 @@
 name: Build and upload binary artifact
 
-on: push
+on: [workflow_dispatch]
 
 jobs:
   release:
