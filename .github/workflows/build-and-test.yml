@@ -1,7 +1,7 @@
 name: Run tests on Java 8
 
 on: push
-
+ 
 jobs:
   test:
     runs-on: ubuntu-latest
