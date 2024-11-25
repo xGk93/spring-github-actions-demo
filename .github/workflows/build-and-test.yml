@@ -12,4 +12,5 @@ jobs:
         uses: actions/setup-java@v4.5.0
         with:
           java-version: 8
+          distribution: zulu
       - run: mvn -f pom.xml test
